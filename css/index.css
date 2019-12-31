@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#box {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid #000;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.boximg {
+    display: block;
+    margin: 20px auto;
+}
+
+.wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: rgb(240, 220, 131);
+    opacity: .5;
+    cursor: move;
+    display: none;
+}
+
+.ri {
+    position: absolute;
+    left: 420px;
+    top: 0px;
+    display: none;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.ri img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100% 100%;
+    margin-top: 0;
+}
